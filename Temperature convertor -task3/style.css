@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    width: 450px;
+    background-color: #1a708f;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    right: 50%;
+    box-shadow: 0 20px 25 px rgba(0,0,0,25);
+    border-radius: 8px;
+    
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#C5AEE3;
+    background-image: url("./image/284466.jpg");
+    background-position: 2500x 2000px;
+
+    
+
+}
+
+.button button{
+    
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background: #e2e9eb;
+    background-color: #313739;
+    color: #fff;
+}
+
+.container{
+    max-width: 450px;
+    background: #0492C2;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+
+
+.Temperature-icon{
+    font-size: 45px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+
+.celsius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+.fahrenheit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+    padding: 0 10px;
+    box-shadow: #141718;
+    
+}
+
+.icon{
+    flex: 1;
+    height: 40px;
+    line-height: 100px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 25px;
+    background: #478eac;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    width: 20px;
+    border: 7.5px solid rgb(138, 131, 159);
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+
+
